@@ -17,5 +17,5 @@ app.use('/api',userRouter)
 //     res.send('hello')
 // })
 app.listen(4000,()=>{
-    console.log('server start on port no 4000');
+    console.log('Server start on port no 4000');
 })
