@@ -1,7 +1,7 @@
 let express = require('express');
 let mongoose = require('mongoose')
 let userRouter = require('../route/routeUser')
-mangoose.conncet(' mongodb://127.0.0.1:27017/fsd')
+mongoose.conncet(' mongodb://127.0.0.1:27017/fsd')
 .then(()=>{
    console.log('db');
 }).catch((err)=>{
